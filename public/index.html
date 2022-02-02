@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+
+  <title>shriram yadav | Portfolio</title>
+</head>
+
+<body>
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#" class="nav__logo">Shriram Yadav | Portfolio</a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <section class="home" id="home">
+      <div class="home__container bd-grid">
+        <h1 class="home__title"><span>HELLO!</span></h1>
+        <img src="assets/img/ram.png" alt="" class="home__img" />
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <h2 class="section-title">About Me</h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img src="assets/img/ram.png" alt="" />
+        </div>
+
+        <div>
+          <h2 class="about__subtitle">I'm Shriram Yadav</h2>
+          <span class="about__profession">Full Stack Developer</span>
+          <p class="about__text">
+            I was born and brought up in Beed, MH, India. I have a keen
+            interest in new technologies and I never shy away from new
+            challenges. You never know what the fast-paced world of technology
+            has to offer you every time you learn something new, so things are
+            always pretty exciting!
+          </p>
+
+          <div class="about__social">
+            <a href="https://www.linkedin.com/in/shriramy121/" class="about__social-icon"><i
+                class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/shriramy121" class="about__social-icon"><i class="bx bxl-github"></i></a>
+            <a href="https://www.facebook.com/shriram.yadav.980315" class="about__social-icon"><i
+                class="bx bxl-facebook"></i></a>
+            <a href="https://www.instagram.com/the_.whitedevil" class="about__social-icon"><i
+                class="bx bxl-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills__container bd-grid">
+        <div class="skills__box">
+          <h3 class="skills__subtitle">Full Stack Development</h3>
+          <span class="skills__name">React</span>
+          <span class="skills__name">HTML</span>
+          <span class="skills__name">CSS</span>
+          <span class="skills__name">Bootstrap</span>
+          <span class="skills__name">JavaScript</span>
+          <span class="skills__name">MongoDB</span>
+          <span class="skills__name">postman</span>
+          <span class="skills__name">Oracle</span>
+          <span class="skills__name">Git-Github</span>
+          <span class="skills__name"></span>
+          <span class="skills__name">JSON</span>
+          <span class="skills__name">Python</span>
+
+  
+          <span class="skills__name">Figma</span>
+        </div>
+
+        <div class="skills__img">
+          <img src="assets/img/skill.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section-title">Portfolio</h2>
+
+      <div class="portfolio__container bd-grid">
+        <div class="portfolio__img">
+          <img src="assets/img/work1.jpg" alt="" />
+
+          <div class="portfolio__link">
+            <a href="https://github.com/shriramy121/coffee-shop" target="_blank" class="portfolio__link-name">View details</a>
+          </div>
+        </div>
+        <div class="portfolio__img">
+          <img src="assets/img/work2.jpg" alt="" />
+
+          <div class="portfolio__link">
+            <a href="https://github.com/shriramy121/interior-design-website" target="_blank" class="portfolio__link-name">View details</a>
+          </div>
+        </div>
+        <div class="portfolio__img">
+          <img src="assets/img/work3.jpg" alt="" />
+
+          <div class="portfolio__link">
+            <a href="https://github.com/shriramy121/portfolio-website" target="_blank" class="portfolio__link-name">View details</a>
+          </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Reach Out</h2>
+
+      <div class="contact__container bd-grid">
+        <div class="contact__info">
+          <h3 class="contact__subtitle">EMAIL</h3>
+          <span class="contact__text">shriramy121@gmail.com</span>
+
+          <h3 class="contact__subtitle">PHONE</h3>
+          <span class="contact__text">+917620626623</span>
+
+          <h3 class="contact__subtitle">ADDRESS</h3>
+          <span class="contact__text">MH, India.</span>
+        </div>
+
+        <form action="/contact" method="POST" class="contact__form">
+          <div class="contact__inputs">
+            <input type="text" name="name" placeholder="Your Name" class="contact__input" required />
+            <input type="email" name="email" placeholder="Your Email ID" class="contact__input" required />
+          </div>
+
+          <textarea name="message" id="" cols="0" rows="10" class="contact__input" placeholder="Message"
+            required></textarea>
+
+          <input type="submit" value="Send Message" class="contact__button" />
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer footer__section">
+    <div class="">
+      <h2 class="footer__title">Location on the Map</h2>
+      <div id="map"></div>
+    </div>
+    <div class="footer__data">
+      <h2 class="footer__title">VISITS</h2>
+      <a href="https://www.free-counters.org/">free-counters.org</a>
+      <script type="text/javascript"
+        src="https://www.freevisitorcounters.com/auth.php?id=3177a29c4aa349e8726a69bf56baa30c1458e2ce"></script>
+      <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/844576/t/5"></script>
+    </div>
+
+    <div id="copyright">Copyright &copy; 2022, Shriram Yadav</div>
+  </footer>
+
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script async src="assets/js/main.js"></script>
+</body>
+
+</html>
